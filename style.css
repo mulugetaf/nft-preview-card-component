@@ -1,0 +1,65 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
+:root {
+    --main-very-dark-blue: hsl(217, 54%, 11%);
+    --card-very-dark-blue: hsl(216, 50%, 16%);
+    --line-very-dark-blue: hsl(215, 32%, 27%);
+    --white--: hsl(0, 0%, 100%);
+    --soft-blue--: hsl(215, 51%, 70%);
+    --cyan--: hsl(178, 100%, 50%)
+}
+
+h1 {
+    color: var(--white--);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 20px
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 20px
+}
+
+body {
+    background-color: var(--card-very-dark-blue);
+    font-size: 18px;
+    font-family: Outfit, sans-serif;
+    padding: 50px
+}
+
+.main-container {
+    background-color: var(--card-very-dark-blue);
+    box-shadow: 0 -2px 50px 0 var(--main-very-dark-blue);
+    width: max(18%, 20rem);
+    margin: 0 auto;
+    border-radius: 15px
+}
+
+.img-container {
+    padding: 0 20px
+}
+
+.info-container {
+    border-radius: 20px
+}
+
+.info-description {
+    color: var(--soft-blue--);
+    padding: 0 20px
+}
+
+.price {
+    color: var(--cyan--);
+    padding: 0 20px
+}
+
+.icon-ethereum {
+    width: 10px
+}
+
+.icon-clock {
+    width: 20px
+}
