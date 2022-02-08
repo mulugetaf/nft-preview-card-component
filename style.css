@@ -16,6 +16,11 @@ h1 {
     font-weight: 400;
     padding: 0 20px;
     text-decoration: none;
+    
+}
+h1:hover{
+    cursor: pointer;
+    color: var(--cyan--);
 }
 
 img {
@@ -47,10 +52,21 @@ body {
 }
 
 .img-container {
+    
     padding: 0 20px;
     min-height: 18rem;
     overflow: hidden;
+
 }
+.img-container :hover {
+    background-image: url("images/icon-view.svg");
+    background-color: var(--cyan);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    cursor: pointer;
+    opacity: 0.6;
+
+  }
 
 .info-container {
     border-radius: 20px;
@@ -108,8 +124,8 @@ hr{
     top:5px;
     right:15px;
     height:30px;
-    width: 20px;
-    padding: 0 4px 0 5px;
+    width: 30px;
+    padding: 0 ;
     border-radius: 50%;
     border: 1px solid var(--white--);
     
@@ -119,4 +135,8 @@ hr{
 }
 span{
     color: var(--white--);
+}
+span:hover{
+    cursor: pointer;
+    color: var(--cyan--);
 }
